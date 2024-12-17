@@ -54,9 +54,7 @@ public class Time {
             hours +=1;
         }
         if (hours>=24){
-            mins=0;
-            hours=0;
-            secs =0;
+            hours -= 24;
         }
         else {}
 
